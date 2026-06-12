@@ -1,3 +1,9 @@
+
+# simulate firmware behavior for validation testing
+# provides states commands sensors memory logs and watchdog behavior
+
+
+
 class FakeFirmwareAdapter:
     # initialize fake firmware
     def __init__(self):

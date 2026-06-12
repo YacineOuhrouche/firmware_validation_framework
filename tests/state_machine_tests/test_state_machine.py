@@ -1,3 +1,6 @@
+# validate firmware command processing
+# verify valid invalid malformed and unauthorized commands
+
 from adapters.fake_firmware_adapter import FakeFirmwareAdapter
 
 
