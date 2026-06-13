@@ -1,0 +1,20 @@
+initial_state: BOOT
+valid_states:
+  - BOOT
+  - IDLE
+  - RUNNING
+  - SAFE
+
+valid_transitions:
+  BOOT:
+    - IDLE
+  IDLE:
+    - RUNNING
+    - BOOT
+    - SAFE
+  RUNNING:
+    - IDLE
+    - BOOT
+    - SAFE
+  SAFE:
+    - BOOT

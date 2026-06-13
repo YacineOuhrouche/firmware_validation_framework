@@ -1,0 +1,10 @@
+valid_commands:
+  - START
+  - STOP
+  - RESET
+
+invalid_commands:
+  - BAD_COMMAND
+  - "@@@"
+  - ""
+  - ERASE_FLASH
