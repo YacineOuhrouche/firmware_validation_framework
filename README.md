@@ -75,21 +75,14 @@ A modular embedded firmware validation and testing framework built in Python usi
 firmware_validation/
 
 ├── src/
-│   ├── validators/
-│   ├── models/
 │   └── utils/
 │
 ├── adapters/
-│   ├── firmware_interface.py
-│   ├── firmware_client.py
 │   └── fake_firmware_adapter.py
 │
 ├── configs/
 │   ├── states.yaml
 │   ├── commands.yaml
-│   ├── sensors.yaml
-│   ├── logging.yaml
-│   └── watchdog.yaml
 │
 ├── tests/
 │   ├── state_machine_tests/
@@ -123,8 +116,6 @@ firmware_validation/
 │   ├── validation_strategy.md
 │   └── company_usage_example.md
 │
-├── ci/
-│   └── github_actions_example.yml
 │
 ├── pytest.ini
 ├── requirements.txt
